@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
 *.py[codz]
 *$py.class
 
@@ -148,6 +149,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+.venv/
 .env
 .envrc
 .venv
@@ -216,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# Kaggle Output
+submission.csv
